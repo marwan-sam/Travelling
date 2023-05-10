@@ -27,18 +27,17 @@ body {
 .nav_bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 15px;
     margin-left: 100px;
     margin-top: 20px;
     font-size: 25px;
-    background-color: white;
     list-style: none;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav_bar img {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
 }
 
 .nav_bar nav {
