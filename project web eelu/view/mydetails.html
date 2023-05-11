@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style/mydetails.css">
+
+</head>
+
+<body>
+
+    <div class="nav_bar">
+        <img src="../assets/image/p5.png">
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="signin.htm">Sign In</a></li>
+            <li><a href="mydetails.html">My Details</a></li>
+        </nav>
+    </div>
+    <h1>Your Account</h1>
+
+    <div class="combo">
+
+        <!-- left side -->
+        <div class="left_side">
+
+
+            <!-- first section -->
+            <section>          
+
+                <h2>Personal Details:</h2>
+                <table class="personal_details_table">
+                    <tr>
+                      <td><strong>Full Name:</strong></td>
+                      <td id="fullnameInfo">Not Logged In</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Username: </strong></td>
+                      <td id="usernameInfo">Not Logged In</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Address:</strong></td>
+                      </tr>
+                      <tr>
+                            <td id="addressInfo" colspan="2">Not Logged In</td>
+                      </tr>
+                  </table> 
+
+                  <hr>
+
+                  <h2>Your Current Bookings:</h2>
+                <table>
+                    <tr>
+                        <th>Trip Type</th>
+                        <th>Number of Trips</th>
+                      </tr>
+                    <tr>
+                      <td>Mountain Trips</td>
+                      <td id="mountainTripsInfo">Not Logged In</td>
+                    </tr>
+                    <tr>
+                      <td>Surfing Trips</td>
+                      <td id="surfingTripsInfo">Not Logged In</td>
+                    </tr>
+                    <tr>
+                        <td>Ocean Trips</td>
+                        <td id="oceanTripsInfo">Not Logged In</td>
+                      </tr>
+                  </table>
+            </section>
+
+            <!-- second section -->
+            <section>
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="../controller/pouchdb-8.0.1.min.js"> </script>
+    <script src="../controller/jquery-3.6.4.min.js"> </script>
+    <script src="../controller/app.js"> </script>
+
+</body>
+
+</html>

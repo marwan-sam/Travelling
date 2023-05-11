@@ -18,7 +18,7 @@
             <div class="nav_bar">
 
                 <img src="../assets/image/p5.png">
-
+                <p id="greeting">Hello, stranger!</p>
                 <nav>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="About.html">About</a></li>
@@ -45,21 +45,21 @@
                     <img src="../assets/image/p2.jpg" alt="">
                     <h2>MOUNTAINS TRAVEL</h2>
                     <p>Desc. for TRAVEL</p>
-                    <button onclick="another_page()">BOOK NOW</button>
+                    <button id="mountainBooking">BOOK NOW</button>
                 </div>
 
                 <div>
                     <img src="../assets/image/p3.jpg" alt="">
                     <h2>SURF TRAVEL</h2>
                     <p>Desc. for TRAVEL</p>
-                    <button onclick="another_page()">BOOK NOW</button>
+                    <button id="surfingBooking">BOOK NOW</button>
                 </div>
 
                 <div>
                     <img src="../assets/image/p4.jpg" alt="">
                     <h2>OCEAN TRAVEL</h2>
                     <p>Desc. for TRAVEL</p>
-                    <button onclick="another_page()">BOOK NOW</button>
+                    <button id="oceanBooking">BOOK NOW</button>
                 </div>
 
             </div>
@@ -104,19 +104,15 @@
                     </span>
                 </section>
             </div>
-           
+
 
         </div>
     </div>
 
 
     <script src="../controller/pouchdb-8.0.1.min.js"> </script>
+    <script src="../controller/jquery-3.6.4.min.js"> </script>
     <script src="../controller/app.js"> </script>
-    <script>
-        function another_page() {
-            location.href = 'h.html';
-        }
-    </script>
 
 </body>
 

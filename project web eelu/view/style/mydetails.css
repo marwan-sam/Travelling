@@ -158,3 +158,9 @@ h1 {
     width: 510px;
     height: 1000px;
 }
+
+td, th{
+    padding: 0.6em;
+    font-size: 1.2rem;
+    text-align: left;
+}

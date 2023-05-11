@@ -112,7 +112,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    pointer-events: none;
 }
 
 .content_part_2 div {
@@ -135,7 +134,7 @@ body {
 }
 
 .content_part_2 div button:hover {
-    filter: brightness(50%);
+    filter: brightness(50%); 
 }
 
 /* part 3 */
@@ -208,4 +207,8 @@ body {
 
 .part_3 button:hover {
     filter: brightness(50%);
+}
+
+#greeting {
+    font-size: 1.5rem;
 }
