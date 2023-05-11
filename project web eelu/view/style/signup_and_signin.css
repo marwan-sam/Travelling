@@ -136,13 +136,12 @@ h1 {
 /* left side  */
 .left_side {
     background-color: #F9E783;
-    width: 920px;
+    width: 1020px;
     height: 1000px;
 }
 
 /* midel side  */
 .midel_side {
-    background-color: #E0E5EB;
     width: 510px;
     height: 1000px;
 }
