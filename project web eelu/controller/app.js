@@ -52,7 +52,7 @@ $('*[id*=Booking]').each(function () {
                     trips: signedInUser['trips']
                 });
             })
-            alert('One additinoal ' + bookingType + " trip has been added to your acount\nYou can see it in the details page.")
+            alert('One additinoal ' + bookingType + " trip has been added to your acount\nYou can see it in the profile page.");
 
         }
         else {
@@ -139,6 +139,7 @@ $(function () {
                     alert("Successfully logged in!");
                     signedInUser = doc;
                     sessionStorage.setItem("signedInUserLocal", JSON.stringify(signedInUser));
+                    window.location.replace("index.html");
                 }
             }).catch(function (err) {
                 alert("Username was not found!");
